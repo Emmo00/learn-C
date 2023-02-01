@@ -31,15 +31,17 @@ Learn C with examples, For Beginners
 * [Hello World](./01_Hello_world/hello_world.md#hello-world)
 	* My First Program
 	* [Comments](./01_Hello_world/hello_world.md#comments)
-* Variables
-	* Identifiers
-	* Introduction to Data types in C
-		* int
-		* char
-		* float
-		* double
-		* constants
-	* Scope
+* [Variables](./02_Variables/variables.md#variables)
+	* [Identifiers](./02_Variables/variables.md#identifiers)
+	* [Introduction to Data types in C](./02_Variables/variables.md#data-types)
+		* [int](./02_Variables/variables.md#int)
+		* [char](./02_Variables/variables.md#char)
+			* [Escape Characters](./02_Variables/variables.md#escape-characters)
+		* [float](./02_Variables/variables.md#float)
+		* [double](./02_Variables/variables.md#double)
+	* [Printing Value of Variables](./02_Variables/variables.md#printing-values-of-variables)
+		* [Format Specifier](./02_Variables/variables.md#format-specifiers)
+	* [constants](./02_Variables/variables.md#constants)
 * Arrays
 	* Create
 	* Access and Modify
@@ -59,6 +61,7 @@ Learn C with examples, For Beginners
 	* Break and Continue Keywords
 * Functions 
 	* Parameters and Return Values
+	* Scope
 	* Intro to Recursion
 * Struct and Typedef 
 * Pointers 
