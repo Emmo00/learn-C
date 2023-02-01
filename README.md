@@ -6,29 +6,31 @@ Learn C with examples, For Beginners
 | 0 | [Introduction](./00_Introduction/) |
 | 1 | [Hello World](./01_Hello_world/) |
 | 2 | [Variables]() |
-| 3 | [Control Flow]() |
-| 4 | [Functions]() |
-| 5 | [Loops]() |
-| 6 | [Pointers]() |
-| 7 | [Command Line Argunents]() |
-| 8 | [Preprocessor]()|
-| 9 | [Pointers To Functions]() |
-| 10 | [Struct and Typedef]() |
-| 11 | [Variadic Function]() |
-| 12 | [File IO]() |
-| 13 | [First Contributions]() |
+| 3 | [Arrays]() |
+| 4 | [Control Flow]() |
+| 5 | [Functions]() |
+| 6 | [Loops]() |
+| 7 | [Pointers]() |
+| 8 | [Command Line Argunents]() |
+| 9 | [Preprocessor]()|
+| 10 | [Pointers To Functions]() |
+| 11 | [Struct and Typedef]() |
+| 12 | [Variadic Function]() |
+| 13 | [File IO]() |
+| 14 | [First Contributions]() |
 
 * Learn C
 	* [Welcome](./README.md)
-* [Introduction](./00_Introduction/README.md#introduction)
-	* [Requirements](./00_Introduction/README.md#requirement)
-	* [Setup](./00_Introduction/README.md#setup)
+* [Introduction](./00_Introduction/introduction.md#introduction)
+	* [Requirements](./00_Introduction/introduction.md#requirement)
+	* [Setup](./00_Introduction/introduction.md#setup)
 		* Compiler
 		* Test Editor
-	* [Coding Style (Betty)](./00_Introduction/README.md#coding-style-betty)
-	* [Keywords](./00_Introduction/README.md#keywords)
-* [Hello World](./01_Hello_world/README.md#hello-world)
+	* [Coding Style (Betty)](./00_introduction/introduction.md#coding-style-betty)
+	* [Keywords](./00_introduction/introduction.md#keywords)
+* [Hello World](./01_Hello_world/hello_world.md#hello-world)
 	* My First Program
+	* [Comments](./01_Hello_world/hello_world.md#comments)
 * Variables
 	* Identifiers
 	* Introduction to Data types in C
@@ -37,13 +39,13 @@ Learn C with examples, For Beginners
 		* float
 		* double
 		* constants
-	* Arrays
-		* Create
-		* Access and Modify
-		* Strings
-		* Multi-Dimentional Arrays
+	* Scope
+* Arrays
+	* Create
+	* Access and Modify
+	* Strings
+	* Multi-Dimentional Arrays
 	* sizeof()
-	* Comments
 * Control Flow 
 	* if
 	* if else
@@ -60,7 +62,8 @@ Learn C with examples, For Beginners
 	* Intro to Recursion
 * Struct and Typedef 
 * Pointers 
-* Command Line Argunents 
+* Command Line Argunents
+* Preprocessor
 * Pointers To Functions 
 * More Struct and Typedef 
 * Variadic Function 
