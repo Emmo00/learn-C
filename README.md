@@ -49,14 +49,15 @@ Learn C with examples, For Beginners
     * [Declaration of an array](./03_Arrays/arrays.md#declaration)
     * [How to traverse in an array](./03_Arrays/arrays.md#traverse)
     * [Multidimensional Arrays in C](./03_Arrays/arrays.md#multidimensional_array)
-    [Strings](./strings.md#strings)
-* [Declaration of Strings](./strings.md$declaration)
-* [Initializing a String](./strings.md#initializing)
-* [Append a character to a String in c](./strings.md#appendment)
-* [strncat() function in C](./strings.md#strncat())
-* [strpbrk() in C](./strings.md#strpbrk())
-* [strcoll() in C](./strings.md#strcoll())
-* [Finding the Length of String](./strings.md#length)
+* [Strings](./04_Strings/strings.md)
+    * [Strings](./04_Strings/strings.md#strings)
+    * [Declaration of Strings](./04_Strings/strings.md$declaration)
+    * [Initializing a String](./04_Strings/strings.md#initializing)
+    * [Append a character to a String in c](./04_Strings/strings.md#appendment)
+    * [strncat() function in C](./04_Strings/strings.md#strncat())
+    * [strpbrk() in C](./04_Strings/strings.md#strpbrk())
+    * [strcoll() in C](./04_Strings/strings.md#strcoll())
+    * [Finding the Length of String](./04_Strings/strings.md#length)
 
 * Control Flow 
 	* if
