@@ -1,7 +1,8 @@
 [Previous](../README.md) Learn-C
 
-[Next](../01_Hello_world/) Hello-World 
-
+[Next](../01_Hello_world/) Hello-World \
+\
+\
 * [Introduction](./introduction.md#introduction)
 	* [Requirements](./introduction.md#requirement)
 	* [Setup](./introduction.md#setup)
