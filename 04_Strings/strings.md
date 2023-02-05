@@ -13,13 +13,13 @@
 
 # Strings
 String in C programming is a sequence of characters terminated with a null character ‘\0’. Strings are defined as an array of characters. The difference between a character array and a string is the string is terminated with a unique character ‘\0’.
-## Declaration of String
+## Declaration 
 Declaring a string is as simple as declaring a one-dimensional array. Below is the basic syntax for declaring a string.
 
 char str_name[size];
 In the above syntax str_name is any name given to the string variable and size is used to define the length of the string, i.e the number of characters strings will store. 
 Note: There is an extra terminating character which is the Null character (‘\0’) used to indicate the termination of a string that differs strings from normal character arrays. When a Sequence of characters enclosed in the double quotation marks is encountered by the compiler, a null character ‘\0’ is appended at the end of the string by default.
-## Initialization of  String
+## Initializing
 A string can be initialized in different ways. We will explain this with the help of an example. Below are the examples to declare a string with the name str and initialize it with “GeeksforGeeks”.
 
 4 Ways to Initialize a String in C
@@ -137,7 +137,7 @@ strlwr()	            Converts string to lowercase.
 strupr()	            Converts string to uppercase.
 strstr(s1, s2)	        Find the first occurrence of s2 in s1.
 
-## Append a character to a String in C
+## Appendment
 
 Given a string str and a character ch, this article tells about how to append this character ch to this string str at the end.
 Examples: 
@@ -206,7 +206,7 @@ Character to be appended: s
 
 Appended String: Geeks
 
-##  strncat() function in C
+##  strncat() 
 
 
 In C, strncat() is a predefined function used for string handling. *string.h* is the header file required for string functions.
@@ -318,7 +318,7 @@ After strcat() function execution, destination string : joshirishi
 Before strncat() function execution, destination string : hey
 After strncat() function execution, destination string : heyris
 
-## strpbrk() in C
+## strpbrk() 
 
 This function finds the first character in the string s1 that matches any character specified in s2 (It excludes terminating null-characters).
 
@@ -376,7 +376,7 @@ Output:
 Better luck next time
 Congrats u have won
 
-## strcoll() in C
+## strcoll() 
 
 strcoll() is a built-in library function and is declared in <string.h> header file. This function compares the string pointed to by str1 with the one pointed by str2.The strcoll() function performs the comparison based on the rules of the current locale’s LC_COLLATE category. Syntax:
 
@@ -493,7 +493,7 @@ int main()
 Output:
 str1 is equal to str2 
 
-## Finding the Length of String
+## Length
 
 Below is the algorithm for finding the length of two strings:
 
