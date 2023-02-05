@@ -1,6 +1,6 @@
 [Previous](../README.md) Learn-C
 
-[Next](../01_Hello_world/) Hello-World \
+[Next](../01_Hello_world/hello_world.md) Hello-World \
 \
 \
 * [Introduction](./introduction.md#introduction)
@@ -76,4 +76,4 @@ Enough of the talk. In the Next Section, we are going to write some code.
 \
 [Previous](../README.md) Learn-C
 
-[Next](../01_Hello_world/) Hello-World
+[Next](../01_Hello_world/hello_world.md) Hello-World
