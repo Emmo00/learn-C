@@ -1,26 +1,24 @@
-[Previous](../02_Variables/variables.md)Variables
-[Next](../04_Control_flow/control_flow.md)Control_flow
+[Previous](../02_Variables/variables.md) Variables
+
+[Next](../04_Strings/strings.md) Strings
 #
   * [Arrays](./arrays.md#arrays)
+	* [Declaration of an array](./arrays.md#declaration)
     * [Advantages](./arrays.md#advantages)
-      * [Disadvantage](./arrays.md#disadvantages)
-      * [Declaration of an array](./arrays.md#declaration)
-        * [How to traverse in an array](./arrays.md#traverse)
-        * [Multidimensional Arrays in C](./arrays.md#multidimensional_array)
-        # Arrays
-1.It is a group of variables of similar data types referred to by a single element.
-2.Its elements are stored in a contiguous memory location.
-3.The size of the array should be mentioned while declaring it.
+    * [Disadvantage](./arrays.md#disadvantages)
+    * [How to traverse in an array](./arrays.md#traverse)
+    * [Multidimensional Arrays in C](./arrays.md#multidimensional_array)
+		* [Two Dimensional Arrays](./arrays.md#two-dimensional-array)
+		* [Three Dimensional Arrays](./arrays.md#three-dimensional-array)
+# Arrays
+It is a group of variables of similar data types referred to by a single element. Elements of an Array are stored in a contiguous memory location.
+
+The size of the array should be mentioned while declaring it.
 4.Array elements are always counted from zero (0) onward.
 5.Array elements can be accessed using the position of the element in the array.
 6.The array can have one or more dimensions.
  
-An array in C or be it in any programming language is a collection of similar data items stored at contiguous memory locations and elements can be accessed randomly using indices of an array.  They can be used to store the collection of primitive data types such as int, float, double, char, etc of any particular type. To add to it, an array in C can store derived data types such as structures, pointers etc. Given below is the picture representation of an array.
-## Advantages
-Code Optimization:  we can retrieve or sort the data efficiently.
-Random access: We can get any data located at an index position.
-## Disadvantages
-Size Limit: We can store only the fixed size of elements in the array. It doesn’t grow its size at runtime.
+An array in C or be it in any programming language is a collection of similar data items stored at contiguous memory locations and elements can be accessed randomly using indices of an array.  They can be used to store the collection of primitive data types such as int, float, double, char, etc of any particular type. To add to it, an array in C can store derived data types such as structures, pointers etc.
 ## Declaration
 There are various ways in which we can declare an array. It can be done by specifying its type and size, initializing it or both.
 Array declaration by specifying the size:
@@ -84,7 +82,7 @@ int main()
 }
 ```
 Warnings: 
-
+```
 prog.c: In function 'main':
 prog.c:7:25: warning: excess elements in array initializer
   int arr[2] = { 10, 20, 30, 40, 50 };
@@ -98,16 +96,23 @@ prog.c:7:33: warning: excess elements in array initializer
   int arr[2] = { 10, 20, 30, 40, 50 };
                                  ^
 prog.c:7:33: note: (near initialization for 'arr')
+```
+## Advantages
+Code Optimization:  we can retrieve or sort the data efficiently.
+Random access: We can get any data located at an index position.
+## Disadvantages
+Size Limit: We can store only the fixed size of elements in the array. It doesn’t grow its size at runtime.
 ## Traverse
 Traversing in array is basically going through all the elements present in that particular array. It can be divided into three parts that are to be performed in a definite sequence
 Approach:-  
 
 1. Start a loop from 0 to N-1, where N is the size of array. 
+```C
+for (i = 0; i < N; i++)
+```
+Loops in Later Chapter. [Loops](TODO)
 
-for(i = 0; i < N; i++)
-2. Access every element of array with help of 
-
-arr[index]
+2. Access every element of array with help of arr[index]
 3. Print the elements. 
 printf("%d ", arr[i])
 ```C
@@ -117,20 +122,20 @@ printf("%d ", arr[i])
 
 int main()
 {
-int arr[5];
-//declaring the integer used in the loop
-int i;
-//taking input of all the elements to be entered
-for(i=0;i<=5;i++)
-{
-  scanf("%d",&arr[i]);
-}
-//printing all the elements 
-for(i=0;i<=5;i++)
-{
-  printf("%d",arr[i]);
-}
-return 0;
+	int arr[5];
+	//declaring the integer used in the loop
+	int i;
+	//taking input of all the elements to be entered
+	for (i=0; i<=5; i++)
+	{
+		scanf("%d",&arr[i]);
+	}
+	//printing all the elements 
+	for(i=0;i<=5;i++)
+	{
+  		printf("%d",arr[i]);
+	}
+	return 0;
 }
 ```
 Another different method could be:
@@ -176,34 +181,44 @@ Prerequisite: Arrays in C
 A multi-dimensional array can be termed as an array of arrays that stores homogeneous data in tabular form. Data in multidimensional arrays are stored in row-major order.
 
 The general form of declaring N-dimensional arrays is:  
-
+```
 data_type array_name[size1][size2]....[sizeN];
-data_type: Type of data to be stored in the array.
-array_name: Name of the array
+```
+* data_type: Type of data to be stored in the array.
+* array_name: Name of the array
 size1, size2,… ,sizeN: Sizes of the dimension
 Examples: 
 
-Two dimensional array: int two_d[10][20];
+Two dimensional array: 
+```
+int two_d[10][20];
+```
 
-Three dimensional array: int three_d[10][20][30]; 
+Three dimensional array:
+```
+int three_d[10][20][30];
+```
 Size of Multidimensional Arrays:
 
 The total number of elements that can be stored in a multidimensional array can be calculated by multiplying the size of all the dimensions. 
 For example: 
 
 The array int x[10][20] can store total (10*20) = 200 elements. 
+
 Similarly array int x[5][10][20] can store total (5*10*20) = 1000 elements.
-Two-Dimensional Array
+### Two-Dimensional Array
 Two – dimensional array is the simplest form of a multidimensional array. We can see a two – dimensional array as an array of one-dimensional array for easier understanding. 
 The basic form of declaring a two-dimensional array of size x, y: 
 Syntax: 
-
+```
 data_type array_name[x][y];
+```
  Here, data_type is the type of data to be stored.
 
 We can declare a two-dimensional integer array say ‘x’ of size 10,20 as: 
-
+```
 int x[10][20];
+```
 Elements in two-dimensional arrays are commonly referred to by x[i][j] where i is the row number and ‘j’ is the column number.
 Initializing Two – Dimensional Arrays: There are various ways in which a Two-Dimensional array can be initialized. 
 
@@ -262,15 +277,16 @@ int main(void)
 }
 ```
 Output: 
-
+```
 Element at x[0][0]: 0
 Element at x[0][1]: 1
 Element at x[1][0]: 2
 Element at x[1][1]: 3
 Element at x[2][0]: 4
 Element at x[2][1]: 5 
-
-Initializing Three-Dimensional Array: Initialization in a Three-Dimensional array is the same as that of Two-dimensional arrays. The difference is as the number of dimensions increases so the number of nested braces will also increase. 
+```
+### Three-Dimensional Array
+Initialization in a Three-Dimensional array is the same as that of Two-dimensional arrays. The difference is as the number of dimensions increases so the number of nested braces will also increase. 
 
 Method 1:
 ```c
@@ -310,7 +326,7 @@ int main(void)
 }
 ```
 Output: 
-
+```
 Element at x[0][0][0] = 0
 Element at x[0][0][1] = 1
 Element at x[0][1][0] = 2
@@ -323,14 +339,15 @@ Element at x[1][1][0] = 8
 Element at x[1][1][1] = 9
 Element at x[1][2][0] = 10
 Element at x[1][2][1] = 11
+```
 
 In similar ways, we can create arrays with any number of dimensions. However, the complexity also increases as the number of dimensions increases. The most used multidimensional array is the Two-Dimensional Array. 
 
 #
-[Previous](../02_Variables/variables.md)Variables
+[Previous](../02_Variables/variables.md) Variables
 
-[Next](../04_Control_flow/control_flow.md)Control_flow
 
+[Next](../04_Strings/strings.md) Strings
 
 
 

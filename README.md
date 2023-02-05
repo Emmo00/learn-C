@@ -6,18 +6,19 @@ Learn C with examples, For Beginners
 | 0 | [Introduction](./00_Introduction/introduction.md) |
 | 1 | [Hello World](./01_Hello_world/hello_world.md) |
 | 2 | [Variables](./02_Variables/variables.md) |
-| 3 | [Arrays]() |
-| 4 | [Control Flow](./04_Control_flow/control_flow.md) |
-| 5 | [Functions]() |
-| 6 | [Loops]() |
-| 7 | [Pointers]() |
-| 8 | [Command Line Argunents]() |
-| 9 | [Preprocessor]()|
-| 10 | [Pointers To Functions]() |
-| 11 | [Struct and Typedef]() |
-| 12 | [Variadic Function]() |
-| 13 | [File IO]() |
-| 14 | [First Contributions]() |
+| 3 | [Arrays](./03_Arrays/arrays.md) |
+| 4 | [Strings](./04_Strings/strings.md)
+| 5 | [Control Flow](./05_Control_flow/control_flow.md) |
+| 6 | [Functions]() |
+| 7 | [Loops]() |
+| 8 | [Pointers]() |
+| 9 | [Command Line Argunents]() |
+| 10 | [Preprocessor]()|
+| 11 | [Pointers To Functions]() |
+| 12 | [Struct and Typedef]() |
+| 13 | [Variadic Function]() |
+| 14 | [File IO]() |
+| 15 | [First Contributions]() |
 
 * Learn C
 	* [Welcome](./README.md)
@@ -42,12 +43,13 @@ Learn C with examples, For Beginners
 	* [Printing Value of Variables](./02_Variables/variables.md#printing-values-of-variables)
 		* [Format Specifier](./02_Variables/variables.md#format-specifiers)
 	* [constants](./02_Variables/variables.md#constants)
-* Arrays
-	* Create
-	* Access and Modify
-	* Strings
-	* Multi-Dimentional Arrays
-	* sizeof()
+* [Arrays](./03_Arrays/arrays.md)
+    * [Advantages](./03_Arrays/arrays.md#advantages)
+    * [Disadvantage](./03_Arrays/arrays.md#disadvantages)
+    * [Declaration of an array](./03_Arrays/arrays.md#declaration)
+    * [How to traverse in an array](./03_Arrays/arrays.md#traverse)
+    * [Multidimensional Arrays in C](./03_Arrays/arrays.md#multidimensional_array)
+
 * Control Flow 
 	* if
 	* if else
