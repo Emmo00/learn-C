@@ -179,8 +179,44 @@ Output
 4
 
 ```
+the if statement in the for loop checks if the value of ``i`` is equal to 5. if that is the case, the loop breaks.
 
 ## Continue
+The ``continue`` keyword is used to skip the current iteration, and continues to the next.
+Example:
+```C
+#include<stdio.h>
+
+int main(void)
+{
+	int i;
+
+	for (i = 0; i < 10; i++)
+	{
+		if (i == 5)
+		{
+			continue;
+		}
+		printf("%d\n", i);
+	}
+	return (0);
+}
+```
+Output
+```
+0
+1
+2
+3
+4
+6
+7
+8
+9
+
+```
+As we can see, it prints out numbers from 0 to 9 apart from 5.
+
 [Previous](../03_Control_flow/control_flow.md) Control Flow
 
 [Next](../05_Arrays/arrays.md) Arrays
