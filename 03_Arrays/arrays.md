@@ -4,7 +4,8 @@
 #
   * [Arrays](./arrays.md#arrays)
 	* [Declaration of an array](./arrays.md#declaration)
-    * [Advantages](./arrays.md#advantages)
+    * [Accessing and modifying Array Elements](./arrays.md#accessing-and-modifying-array-elements)
+	* [Advantages](./arrays.md#advantages)
     * [Disadvantage](./arrays.md#disadvantages)
     * [How to traverse in an array](./arrays.md#traverse)
     * [Multidimensional Arrays in C](./arrays.md#multidimensional_array)
@@ -97,6 +98,47 @@ prog.c:7:33: warning: excess elements in array initializer
                                  ^
 prog.c:7:33: note: (near initialization for 'arr')
 ```
+## Accessing and Modifying Array Elements
+To access an element in an array, we use the index numbers.
+
+Array indexes start with 0: [0] is the first element. [1] is the second element, etc.
+
+Example:
+```C
+#include<stdio.h>
+
+int main(void)
+{
+	int numbers[] = {1, 2, 3, 4};
+
+	printf("%d", myNumbers[0]);
+	return (0);
+}
+```
+Output:
+```
+1
+```
+We Can also change the Value of elememts in an array
+
+Example:
+```C
+#include<stdio.h>
+
+int main(void)
+{
+	int numbers[] = {1, 3, 5, 6};
+
+	numbers[0] = 2;
+	printf("%d", myNumbers[0]); /*This outputs 2 instead of 1*/
+	return (0);
+}
+```
+Output:
+```
+2
+```
+
 ## Advantages
 Code Optimization:  we can retrieve or sort the data efficiently.
 Random access: We can get any data located at an index position.

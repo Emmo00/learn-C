@@ -8,6 +8,7 @@
 	* [Strings as Arrays](./strings.md#strings-as-arrays)
 		* [Accessing Characters in a string](./strings.md#accessing-string-characters)
 		* [Modifying String Characters](./strings.md#modifying-string-characters)
+	* [String Functions](./strings.md#common-string-functions-in-c)
 
 
 # Strings
@@ -65,21 +66,6 @@ We can see in the above program that strings can be printed using normal printf 
 
 *Note: The C language does not provide an inbuilt data type for strings but it has an access specifier “%s” which can be used to print and read strings directly.*
 
-
-## Common String Functions in C
-
-| Function Name      |     Description |
-| -----------------:  | --------------- |
-|strlen(string_name) |	Returns the length of string name.
-|strcpy(s1, s2)	    |    Copies the contents of string s2 to string s1.
-|strcmp(str1, str2)	|    Compares the first string with the second string. If strings are the same it returns 0.
-|strcat(s1, s2)	    |    Concatenate s1 string with s2 string and the result is stored in the first string.
-|strlwr()	        |    Converts string to lowercase.
-|strupr()	        |    Converts string to uppercase.
-|strstr(s1, s2)	    |    Find the first occurrence of s2 in s1.
-
-We would look at some of the above Functions in the next Chapter: [More Strings](../04_1_More_Strings/more_strings.md)
-
 ## Strings As Arrays
 As we have seen, Strings are just arrays of characters, with a null character indicating the end of the string. A string can be accessed and modified just like a normal array.
 ### Accessing String characters
@@ -121,6 +107,27 @@ Output:
 Hallo World
 ```
 Strings can contain Special characters as seen above.
+
+## Common String Functions in C
+
+C also has many useful string functions, which can be used to perform certain operations on strings.
+
+To use them, you must include the <string.h> header file in your program:
+```C
+#include <string.h>
+```
+| Function Name      |     Description |
+| -----------------:  | --------------- |
+|strlen(string_name) |	Returns the length of string name.
+|strcpy(s1, s2)	    |    Copies the contents of string s2 to string s1.
+|strcmp(str1, str2)	|    Compares the first string with the second string. If strings are the same it returns 0.
+|strcat(s1, s2)	    |    Concatenate s1 string with s2 string and the result is stored in the first string.
+|strlwr()	        |    Converts string to lowercase.
+|strupr()	        |    Converts string to uppercase.
+|strstr(s1, s2)	    |    Find the first occurrence of s2 in s1.
+
+We would look at some of the above Functions in the next Chapter: [More Strings](../04_1_More_Strings/more_strings.md)
+
 #
 [Previous](../03_Arrays/arrays.md) Arrays
 
