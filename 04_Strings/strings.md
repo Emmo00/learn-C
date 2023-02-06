@@ -60,7 +60,6 @@ Output:
 ```
 Rishi
 
-Length of string str is 5
 ```
 We can see in the above program that strings can be printed using normal printf statements just like we print any other variable. Unlike arrays, we do not need to print a string, character by character. 
 
