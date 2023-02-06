@@ -57,11 +57,11 @@ Learn C with examples, For Beginners
 	* [if else if else](./03_Control_flow/control_flow.md#else-if-statement)
 	* [Switch](./03_Control_flow/control_flow.md#switch)
 	* [goto](./03_Control_flow/control_flow.md#goto)
-* Loops 
-	* for
-	* While
-	* do while
-	* Break and Continue Keywords
+* [Loops](./04_Loops/loops.md)
+	* [for](./04_Loops/loops.md#for-loop)
+	* [While](./04_Loops/loops.md#while-loop)
+	* [do while](./04_Loops/loops.md#do-while)
+	* [Break and Continue Keywords](./04_Loops/loops.md#break-keyword)
 * [Arrays](./05_Arrays/arrays.md)
     * [Declaration of an array](./05_Arrays/arrays.md#declaration)
 	* [Accessing Elements of an Array](./05_Arrays/arrays.md#accessing-and-modifying-array-elements)

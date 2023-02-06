@@ -2,6 +2,12 @@
 
 [Next](../05_Arrays/arrays.md) Arrays
 
+* [Loops](./loops.md#loops)
+	* [for](./loops.md#for-loop)
+	* [While](./loops.md#while-loop)
+	* [do while](./loops.md#do-while)
+	* [Break and Continue Keywords](./loops.md#break-keyword)
+
 # Loops
 
 Loops are a very important concept in programming. Loops help help do one thing for as many times as we want so far a condition is met.Loops saves time, reduce errors, and they make code more readable.
