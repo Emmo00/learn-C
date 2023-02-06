@@ -1,6 +1,6 @@
-[Previous](../04_Strings/strings.md) Arrays
+[Previous](../06_Strings/strings.md) Strings
 
-[Next](../05_Control_flow/control_flow.md) Control Flow
+[Next](../07_Functions/functions.md) Functions
 #
 * [More Strings](./more_strings.md#more-strings)
 	* [Append a character to a String in c](./more_strings.md#appendment)
@@ -488,6 +488,6 @@ The length of a string is the number of characters in it
 So, the length of Hello = 5
 ```
 #
-[Previous](../04_Strings/strings.md) Arrays
+[Previous](../06_Strings/strings.md) Strings
 
-[Next](../05_Control_flow/control_flow.md) Control Flow
+[Next](../07_Functions/functions.md) Functions

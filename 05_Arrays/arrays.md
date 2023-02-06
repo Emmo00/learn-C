@@ -1,6 +1,6 @@
-[Previous](../02_Variables/variables.md) Variables
+[Previous](../04_Loops/loops.md) Loops
 
-[Next](../04_Strings/strings.md) Strings
+[Next](../06_Strings/strings.md) Strings
 #
   * [Arrays](./arrays.md#arrays)
 	* [Declaration of an array](./arrays.md#declaration)
@@ -69,7 +69,7 @@ int main()
 	return 0;
 }
 ```
-In C, it is not a compiler error to initialise an array with more elements than the specified size. For example, the below program compiles fine and shows just a Warning.
+In C, it is not a compiler error to initialize an array with more elements than the specified size. For example, the below program compiles fine and shows just a Warning.
 ```C
 #include <stdio.h>
 int main()
@@ -119,7 +119,7 @@ Output:
 ```
 1
 ```
-We Can also change the Value of elememts in an array
+We Can also change the Value of elements in an array
 
 Example:
 ```C
@@ -386,10 +386,8 @@ Element at x[1][2][1] = 11
 In similar ways, we can create arrays with any number of dimensions. However, the complexity also increases as the number of dimensions increases. The most used multidimensional array is the Two-Dimensional Array. 
 
 #
-[Previous](../02_Variables/variables.md) Variables
+[Previous](../04_Loops/loops.md) Loops
 
-
-[Next](../04_Strings/strings.md) Strings
-
+[Next](../06_Strings/strings.md) Strings
 
 

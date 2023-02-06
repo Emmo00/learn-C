@@ -6,19 +6,20 @@ Learn C with examples, For Beginners
 | 0 | [Introduction](./00_Introduction/introduction.md) |
 | 1 | [Hello World](./01_Hello_world/hello_world.md) |
 | 2 | [Variables](./02_Variables/variables.md) |
-| 3 | [Arrays](./03_Arrays/arrays.md) |
-| 4 | [Strings](./04_Strings/strings.md)
-| 5 | [Control Flow](./05_Control_flow/control_flow.md) |
-| 6 | [Functions]() |
-| 7 | [Loops]() |
-| 8 | [Pointers]() |
-| 9 | [Command Line Argunents]() |
-| 10 | [Preprocessor]()|
-| 11 | [Pointers To Functions]() |
-| 12 | [Struct and Typedef]() |
-| 13 | [Variadic Function]() |
-| 14 | [File IO]() |
-| 15 | [First Contributions]() |
+| 3 | [Operators in C](./02_Variables/operators.md#operators) |
+| 4 | [Control Flow](./03_Control_flow/control_flow.md) |
+| 5 | [Loops](./04_Loops/loops.md) |
+| 6 | [Arrays](./05_Arrays/arrays.md) |
+| 7 | [Strings](./04_Strings/strings.md)
+| 8 | [Functions]() |
+| 9 | [Pointers]() |
+| 10 | [Command Line Argunents]() |
+| 11 | [Preprocessor]()|
+| 12 | [Pointers To Functions]() |
+| 13 | [Struct and Typedef]() |
+| 14 | [Variadic Function]() |
+| 15 | [File IO]() |
+| 16 | [First Contributions]() |
 
 * Learn C
 	* [Welcome](./README.md)
@@ -43,40 +44,46 @@ Learn C with examples, For Beginners
 	* [Printing Value of Variables](./02_Variables/variables.md#printing-values-of-variables)
 		* [Format Specifier](./02_Variables/variables.md#format-specifiers)
 	* [constants](./02_Variables/variables.md#constants)
-* [Arrays](./03_Arrays/arrays.md)
-    * [Declaration of an array](./03_Arrays/arrays.md#declaration)
-	* [Accessing Elements of an Array](./03_Arrays/arrays.md#accessing-and-modifying-array-elements)
-    * [Advantages](./03_Arrays/arrays.md#advantages)
-    * [Disadvantage](./03_Arrays/arrays.md#disadvantages)
-    * [How to traverse in an array](./03_Arrays/arrays.md#traverse)
-    * [Multidimensional Arrays in C](./03_Arrays/arrays.md#multidimensional_array)
-* [Strings](./04_Strings/strings.md)
-    * [Strings](./04_Strings/strings.md#strings)
-    * [Declaration of Strings](./04_Strings/strings.md$declaration)
-    * [Initializing a String](./04_Strings/strings.md#initializing)
-	* [Strings as Arrays](./04_Strings/strings.md#strings-as-arrays)
-		* [Accessing Characters in a string](./04_Strings/strings.md#accessing-string-characters)
-		* [Modifying String Characters](./04_Strings/strings.md#modifying-string-characters)
-	* [String Functions](./strings.md#common-string-functions-in-c)
-
-* [More Strings](./04_1_More_Strings/more_strings.md)
-    * [Append a character to a String in c](./04_1_More_Strings/more_strings.md#appendment)
-    * [strncat() function in C](./04_1_More_Strings/more_strings.md#strncat())
-    * [strpbrk() in C](./04_1_More_Strings/more_strings.md#strpbrk())
-    * [strcoll() in C](./04_1_More_Strings/more_strings.md#strcoll())
-    * [Finding the Length of String](./04_1_More_Strings/more_strings.md#length)
-
-* Control Flow 
-	* if
-	* if else
-	* if else if else
-	* Switch
-	* goto
+* [Operators in C](./02_Variables/operators.md)
+	* Arithmetic Operators
+	* Assignment Operators
+	* Comparism Operators
+	* Logical Operators
+	* others
+		* sizeof
+* [Control Flow](./03_Control_flow/control_flow.md)
+	* [if](./03_Control_flow/control_flow.md#if-statement)
+	* [if else](./03_Control_flow/control_flow.md#else-statement)
+	* [if else if else](./03_Control_flow/control_flow.md#else-if-statement)
+	* [Switch](./03_Control_flow/control_flow.md#switch)
+	* [goto](./03_Control_flow/control_flow.md#goto)
 * Loops 
 	* for
 	* While
 	* do while
 	* Break and Continue Keywords
+* [Arrays](./05_Arrays/arrays.md)
+    * [Declaration of an array](./05_Arrays/arrays.md#declaration)
+	* [Accessing Elements of an Array](./05_Arrays/arrays.md#accessing-and-modifying-array-elements)
+    * [Advantages](./05_Arrays/arrays.md#advantages)
+    * [Disadvantage](./05_Arrays/arrays.md#disadvantages)
+    * [How to traverse in an array](./05_Arrays/arrays.md#traverse)
+    * [Multidimensional Arrays in C](./05_Arrays/arrays.md#multidimensional_array)
+* [Strings](./06_Strings/strings.md)
+    * [Strings](./06_Strings/strings.md#strings)
+    * [Declaration of Strings](./06_Strings/strings.md$declaration)
+    * [Initializing a String](./06_Strings/strings.md#initializing)
+	* [Strings as Arrays](./06_Strings/strings.md#strings-as-arrays)
+		* [Accessing Characters in a string](./06_Strings/strings.md#accessing-string-characters)
+		* [Modifying String Characters](./06_Strings/strings.md#modifying-string-characters)
+	* [String Functions](./06_Strings/strings.md#common-string-functions-in-c)
+
+* [More Strings](./06_1_More_Strings/more_strings.md)
+    * [Append a character to a String in c](./06_1_More_Strings/more_strings.md#appendment)
+    * [strncat() function in C](./06_1_More_Strings/more_strings.md#strncat())
+    * [strpbrk() in C](./06_1_More_Strings/more_strings.md#strpbrk())
+    * [strcoll() in C](./06_1_More_Strings/more_strings.md#strcoll())
+    * [Finding the Length of String](./06_1_More_Strings/more_strings.md#length)
 * Functions 
 	* Parameters and Return Values
 	* Scope

@@ -1,6 +1,6 @@
 [Previous](../01_Hello_world/hello_world.md) Hello World
 
-[Next](../03_Arrays/arrays.md) Arrays
+[Next](../02_Variables/operators.md) Operators
 # 
 * [Variables](./variables.md#variables)
 	* [Identifiers](./variables.md#identifiers)
@@ -221,7 +221,7 @@ It is common among programmers to declare a constant variable in uppercase.
 ```C
 const float PI = 3.14;
 ```
-#
+# Operators
 [Previous](../01_Hello_world/hello_world.md) Hello World
 
-[Next](../03_Arrays/arrays.md) Arrays
+[Next](../02_Variables/operators.md) Operators
