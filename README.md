@@ -53,11 +53,15 @@ Learn C with examples, For Beginners
     * [Strings](./04_Strings/strings.md#strings)
     * [Declaration of Strings](./04_Strings/strings.md$declaration)
     * [Initializing a String](./04_Strings/strings.md#initializing)
-    * [Append a character to a String in c](./04_Strings/strings.md#appendment)
-    * [strncat() function in C](./04_Strings/strings.md#strncat())
-    * [strpbrk() in C](./04_Strings/strings.md#strpbrk())
-    * [strcoll() in C](./04_Strings/strings.md#strcoll())
-    * [Finding the Length of String](./04_Strings/strings.md#length)
+	* [Strings as Arrays](./04_Strings/strings.md#strings-as-arrays)
+		* [Accessing Characters in a string](./04_Strings/strings.md#accessing-string-characters)
+		* [Modifying String Characters](./04_Strings/strings.md#modifying-string-characters)
+* [More Strings](./04_1_More_Strings/more_strings.md)
+    * [Append a character to a String in c](./04_1_More_Strings/more_strings.md#appendment)
+    * [strncat() function in C](./04_1_More_Strings/more_strings.md#strncat())
+    * [strpbrk() in C](./04_1_More_Strings/more_strings.md#strpbrk())
+    * [strcoll() in C](./04_1_More_Strings/more_strings.md#strcoll())
+    * [Finding the Length of String](./04_1_More_Strings/more_strings.md#length)
 
 * Control Flow 
 	* if

@@ -122,6 +122,7 @@ Output:
 Hallo World
 ```
 Strings can contain Special characters as seen above.
+#
 [Previous](../03_Arrays/arrays.md) Arrays
 
 [Next](../04_1_More_Strings/more_strings.md) More Strings

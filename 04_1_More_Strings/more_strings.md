@@ -1,10 +1,18 @@
-* [Append a character to a String in c](./strings.md#appendment)
-* [strncat() function in C](./strings.md#strncat())
-* [strpbrk() in C](./strings.md#strpbrk())
-* [strcoll() in C](./strings.md#strcoll())
-* [Finding the Length of String](./strings.md#length)
+[Previous](../04_Strings/strings.md) Arrays
 
-How to Read a String From User?
+[Next](../05_Control_flow/control_flow.md) Control Flow
+#
+* [More Strings](./more_strings.md#more-strings)
+	* [Append a character to a String in c](./more_strings.md#appendment)
+	* [strncat() function in C](./more_strings.md#strncat())
+	* [strpbrk() in C](./more_strings.md#strpbrk())
+	* [strcoll() in C](./more_strings.md#strcoll())
+	* [Finding the Length of String](./more_strings.md#length)
+
+# More Strings
+This Section Shows some examples pf actions that can be done on Strings in C.
+
+### How to Read a String From User?
 ```C
 // C program to read string from user
 #include<stdio.h>
@@ -32,7 +40,7 @@ Output:
 RishiJoshi
 ```
 
-How to Read a Line of Text in C?
+### How to Read a Line of Text in C?
 
 We can use the fgets() function to read a line of string and gets() to read characters from the standard input  (stdin) and store them as a C string until a newline character or the End-of-file (EOF) is reached.
 
@@ -479,3 +487,7 @@ The length of a string is the number of characters in it
 
 So, the length of Hello = 5
 ```
+#
+[Previous](../04_Strings/strings.md) Arrays
+
+[Next](../05_Control_flow/control_flow.md) Control Flow
