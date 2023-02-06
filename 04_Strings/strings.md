@@ -15,27 +15,31 @@
 String in C programming is a sequence of characters terminated with a null character ‘\0’. Strings are defined as an array of characters. The difference between a character array and a string is the string is terminated with a unique character ‘\0’.
 ## Declaration 
 Declaring a string is as simple as declaring a one-dimensional array. Below is the basic syntax for declaring a string.
-
+```C
 char str_name[size];
+```
 In the above syntax str_name is any name given to the string variable and size is used to define the length of the string, i.e the number of characters strings will store. 
 Note: There is an extra terminating character which is the Null character (‘\0’) used to indicate the termination of a string that differs strings from normal character arrays. When a Sequence of characters enclosed in the double quotation marks is encountered by the compiler, a null character ‘\0’ is appended at the end of the string by default.
 ## Initializing
-A string can be initialized in different ways. We will explain this with the help of an example. Below are the examples to declare a string with the name str and initialize it with “GeeksforGeeks”.
+A string can be initialized in different ways. We will explain this with the help of an example. Below are the examples to declare a string with the name str and initialize it with “Learn C”.
 
 4 Ways to Initialize a String in C
 1. Assigning a string literal without size: String literals can be assigned without size. Here, the name of the string str acts as a pointer because it is an array.
-
-char str[] = "GeeksforGeeks"; 
-2. Assigning a string literal with a predefined size: String literals can be assigned with a predefined size. But we should always account for one extra space which will be assigned to the null character. If we want to store a string of size n then we should always declare a string with a size equal to or greater than n+1.
-
-char str[50] = "GeeksforGeeks";
+```C
+char str[] = "Learn C"; 
+```
+2. Assigning a string literal with a predefined size: String literals can be assigned with a predefined size. But we should always account for one extra space which will be assigned to the null character '\0'. If we want to store a string of size n then we should always declare a string with a size equal to or greater than n+1.
+```C
+char str[50] = "Learn C";
+```
 3. Assigning character by character with size: We can also assign a string character by character. But we should remember to set the end character as ‘\0’ which is a null character.
-
-char str[14] = { 'G','e','e','k','s','f','o','r','G','e','e','k','s','\0'};
+```C
+char str[8] = { 'L', 'e', 'a', 'r', 'n', ' ', 'C','\0'};
+```
 4. Assigning character by character without size: We can assign character by character without size with the NULL character at the end. The size of the string is determined by the compiler automatically.
-
-char str[] = { 'G','e','e','k','s','f','o','r','G','e','e','k','s','\0'};
-
+```C
+char str[] = { 'L', 'e', 'a', 'r', 'n', ' ', 'C','\0'};
+```
 Let us now look at a sample program to get a clear understanding of declaring, initializing a string in C, and also how to print a string with its size. 
 ```C
 // C program to illustrate strings
@@ -61,10 +65,11 @@ int main()
 }
 ```
 Output:
+```
 Rishi
 
 Length of string str is 5
-
+```
 We can see in the above program that strings can be printed using normal printf statements just like we print any other variable. Unlike arrays, we do not need to print a string, character by character. 
 
 *Note: The C language does not provide an inbuilt data type for strings but it has an access specifier “%s” which can be used to print and read strings directly.*
@@ -89,9 +94,13 @@ int main()
 }
 ```
 Input:
+```
 RishiJoshi
+```
 Output:
+```
 RishiJoshi
+```
 
 How to Read a Line of Text in C?
 
@@ -119,35 +128,38 @@ int main()
 }
 ```
 Input:
+```
 RishiJoshi
-
+```
 Output:
+```
 String is:
 RishiJoshi
+```
+## Common String Functions in C
 
-Most Used Functions in C  Strings:
-
-Function Name           Description
-
-strlen(string_name) 	Returns the length of string name.
-strcpy(s1, s2)	        Copies the contents of string s2 to string s1.
-strcmp(str1, str2)	    Compares the first string with the second string. If strings are the same it returns 0.
-strcat(s1, s2)	        Concat s1 string with s2 string and the result is stored in the first string.
-strlwr()	            Converts string to lowercase.
-strupr()	            Converts string to uppercase.
-strstr(s1, s2)	        Find the first occurrence of s2 in s1.
+| Function Name      |     Description |
+| -----------------:  | --------------- |
+|strlen(string_name) |	Returns the length of string name.
+|strcpy(s1, s2)	    |    Copies the contents of string s2 to string s1.
+|strcmp(str1, str2)	|    Compares the first string with the second string. If strings are the same it returns 0.
+|strcat(s1, s2)	    |    Concat s1 string with s2 string and the result is stored in the first string.
+|strlwr()	        |    Converts string to lowercase.
+|strupr()	        |    Converts string to uppercase.
+|strstr(s1, s2)	    |    Find the first occurrence of s2 in s1.
 
 ## Appendment
 
-Given a string str and a character ch, this article tells about how to append this character ch to this string str at the end.
+Given a string str and a character ch, in the following example, we are going to see how to append this character ch to this string str at the end.
+
 Examples: 
  
-
 Input: str = "Geek", ch = 's'
 Output: "Geeks"
 
 Input: str = "skee", ch = 'G'
 Output: "skeeG"
+
 Approach: 
  
 
@@ -162,7 +174,9 @@ Parameters: This method accepts the following parameters:
  
 
 dest: the string where we want to append.
+
 src: the string from which ‘n’ characters are going to append.
+
 n: represents the maximum number of character to be appended. size_t is an unsigned integral type.
 
 3. Print or return the appended string str.
@@ -198,6 +212,7 @@ int main()
 }
 ```
 Output: 
+```
 Original String: Geek
 
 
@@ -205,7 +220,7 @@ Character to be appended: s
 
 
 Appended String: Geeks
-
+```
 ##  strncat() 
 
 
@@ -223,8 +238,11 @@ char *strncat(char *dest, const char *src, size_t n)
 Parameters: This method accepts the following parameters: 
 
 dest: the string where we want to append.
+
 src: the string from which ‘n’ characters are going to append.
+
 n: represents a maximum number of characters to be appended. size_t is an unsigned integral type.
+
 Return Value: The strncat() function shall return the pointer to the string(dest). 
 
 Application 
@@ -262,10 +280,10 @@ return 0;
 ```
 
 Output: 
-
+```
 Source string : efghijkl
 Destination string : abcdefghi
-
+```
 How strncat() is different from strcat() ?
 
 It is recommended by many of the programmers that strncat() is safe as compared to strcat() because strcat() does not check for the size of the copied data, and copies until it gets to a null terminator, it might cause a buffer overflow while strncat() check for the size of the copied data, and will copy only ‘n’ bytes.
@@ -308,16 +326,15 @@ printf("destination string : %s\n", dest2);
 	
 return 0;
 }
-
 ```
 
 Output:
-
+```
 Before strcat() function execution, destination string : joshi
 After strcat() function execution, destination string : joshirishi
 Before strncat() function execution, destination string : hey
 After strncat() function execution, destination string : heyris
-
+```
 ## strpbrk() 
 
 This function finds the first character in the string s1 that matches any character specified in s2 (It excludes terminating null-characters).
@@ -420,8 +437,9 @@ int main()
 ```
 
 Output:
+```
 str1 is lesser than str2
-
+```
 
 
 2.  greater than zero :when str1 is greater than str2 
@@ -533,6 +551,7 @@ void main()
 ```
 
 Output:
+```
 Enter a string: Hello
 
 
@@ -540,7 +559,7 @@ The length of a string is the number of characters in it
 
 
 So, the length of Hello = 5
-
+```
 #
 
 [Previous](../03_Arrays/arrays.md)Arrays
