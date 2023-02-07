@@ -1,6 +1,6 @@
 [Previous](../02_Variables/operators.md) Operators
 
-[Next](../04_Loops/loops.md) Loops
+[Next](../05_Loops/loops.md) Loops
 #
 * [Control Flow](./control_flow.md#control-flow)
 	* [if](./control_flow.md#if-statement)
@@ -268,4 +268,4 @@ if the value of x was 4 then this program would have jumped to the return line, 
 #
 [Previous](../02_Variables/operators.md) Operators
 
-[Next](../04_Loops/loops.md) Loops
+[Next](../05_Loops/loops.md) Loops

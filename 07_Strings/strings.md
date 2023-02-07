@@ -1,6 +1,6 @@
-[Previous](../05_Arrays/arrays.md) Arrays
+[Previous](../06_Arrays/arrays.md) Arrays
 
-[Next](../06_1_More_Strings/more_strings.md) More Strings
+[Next](../07_1_More_Strings/more_strings.md) More Strings
 #
 * [Strings](./strings.md#strings)
 	* [Declaration of Strings](./strings.md$declaration)
@@ -129,6 +129,6 @@ To use them, you must include the <string.h> header file in your program:
 We would look at some of the above Functions in the next Chapter: [More Strings](../04_1_More_Strings/more_strings.md)
 
 #
-[Previous](../05_Arrays/arrays.md) Arrays
+[Previous](../06_Arrays/arrays.md) Arrays
 
-[Next](../06_1_More_Strings/more_strings.md) More Strings
+[Next](../07_1_More_Strings/more_strings.md) More Strings

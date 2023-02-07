@@ -7,9 +7,9 @@ Learn C with examples, For Beginners
 | 1 | [Hello World](./01_Hello_world/hello_world.md) |
 | 2 | [Variables](./02_Variables/variables.md) |
 | 3 | [Operators in C](./02_Variables/operators.md#operators) |
-| 4 | [Control Flow](./03_Control_flow/control_flow.md) |
-| 5 | [Loops](./04_Loops/loops.md) |
-| 6 | [Arrays](./05_Arrays/arrays.md) |
+| 4 | [Control Flow](./04_Control_flow/control_flow.md) |
+| 5 | [Loops](./05_Loops/loops.md) |
+| 6 | [Arrays](./06_Arrays/arrays.md) |
 | 7 | [Strings](./04_Strings/strings.md)
 | 8 | [Functions]() |
 | 9 | [Pointers]() |
@@ -51,39 +51,39 @@ Learn C with examples, For Beginners
 	* Logical Operators
 	* others
 		* sizeof
-* [Control Flow](./03_Control_flow/control_flow.md)
-	* [if](./03_Control_flow/control_flow.md#if-statement)
-	* [if else](./03_Control_flow/control_flow.md#else-statement)
-	* [if else if else](./03_Control_flow/control_flow.md#else-if-statement)
-	* [Switch](./03_Control_flow/control_flow.md#switch)
-	* [goto](./03_Control_flow/control_flow.md#goto)
-* [Loops](./04_Loops/loops.md)
-	* [for](./04_Loops/loops.md#for-loop)
-	* [While](./04_Loops/loops.md#while-loop)
-	* [do while](./04_Loops/loops.md#do-while)
-	* [Break and Continue Keywords](./04_Loops/loops.md#break-keyword)
-* [Arrays](./05_Arrays/arrays.md)
-    * [Declaration of an array](./05_Arrays/arrays.md#declaration)
-	* [Accessing Elements of an Array](./05_Arrays/arrays.md#accessing-and-modifying-array-elements)
-    * [Advantages](./05_Arrays/arrays.md#advantages)
-    * [Disadvantage](./05_Arrays/arrays.md#disadvantages)
-    * [How to traverse in an array](./05_Arrays/arrays.md#traverse)
-    * [Multidimensional Arrays in C](./05_Arrays/arrays.md#multidimensional_array)
-* [Strings](./06_Strings/strings.md)
-    * [Strings](./06_Strings/strings.md#strings)
-    * [Declaration of Strings](./06_Strings/strings.md$declaration)
-    * [Initializing a String](./06_Strings/strings.md#initializing)
-	* [Strings as Arrays](./06_Strings/strings.md#strings-as-arrays)
-		* [Accessing Characters in a string](./06_Strings/strings.md#accessing-string-characters)
-		* [Modifying String Characters](./06_Strings/strings.md#modifying-string-characters)
-	* [String Functions](./06_Strings/strings.md#common-string-functions-in-c)
+* [Control Flow](./04_Control_flow/control_flow.md)
+	* [if](./04_Control_flow/control_flow.md#if-statement)
+	* [if else](./04_Control_flow/control_flow.md#else-statement)
+	* [if else if else](./04_Control_flow/control_flow.md#else-if-statement)
+	* [Switch](./04_Control_flow/control_flow.md#switch)
+	* [goto](./04_Control_flow/control_flow.md#goto)
+* [Loops](./05_Loops/loops.md)
+	* [for](./05_Loops/loops.md#for-loop)
+	* [While](./05_Loops/loops.md#while-loop)
+	* [do while](./05_Loops/loops.md#do-while)
+	* [Break and Continue Keywords](./05_Loops/loops.md#break-keyword)
+* [Arrays](./06_Arrays/arrays.md)
+    * [Declaration of an array](./06_Arrays/arrays.md#declaration)
+	* [Accessing Elements of an Array](./06_Arrays/arrays.md#accessing-and-modifying-array-elements)
+    * [Advantages](./06_Arrays/arrays.md#advantages)
+    * [Disadvantage](./06_Arrays/arrays.md#disadvantages)
+    * [How to traverse in an array](./06_Arrays/arrays.md#traverse)
+    * [Multidimensional Arrays in C](./06_Arrays/arrays.md#multidimensional_array)
+* [Strings](./07_Strings/strings.md)
+    * [Strings](./07_Strings/strings.md#strings)
+    * [Declaration of Strings](./07_Strings/strings.md$declaration)
+    * [Initializing a String](./07_Strings/strings.md#initializing)
+	* [Strings as Arrays](./07_Strings/strings.md#strings-as-arrays)
+		* [Accessing Characters in a string](./07_Strings/strings.md#accessing-string-characters)
+		* [Modifying String Characters](./07_Strings/strings.md#modifying-string-characters)
+	* [String Functions](./07_Strings/strings.md#common-string-functions-in-c)
 
-* [More Strings](./06_1_More_Strings/more_strings.md)
-    * [Append a character to a String in c](./06_1_More_Strings/more_strings.md#appendment)
-    * [strncat() function in C](./06_1_More_Strings/more_strings.md#strncat())
-    * [strpbrk() in C](./06_1_More_Strings/more_strings.md#strpbrk())
-    * [strcoll() in C](./06_1_More_Strings/more_strings.md#strcoll())
-    * [Finding the Length of String](./06_1_More_Strings/more_strings.md#length)
+* [More Strings](./07_1_More_Strings/more_strings.md)
+    * [Append a character to a String in c](./07_1_More_Strings/more_strings.md#appendment)
+    * [strncat() function in C](./07_1_More_Strings/more_strings.md#strncat())
+    * [strpbrk() in C](./07_1_More_Strings/more_strings.md#strpbrk())
+    * [strcoll() in C](./07_1_More_Strings/more_strings.md#strcoll())
+    * [Finding the Length of String](./07_1_More_Strings/more_strings.md#length)
 * Functions 
 	* Parameters and Return Values
 	* Scope

@@ -1,6 +1,6 @@
 [Previous](../02_Variables/variables.md) Variables
 
-[Next](../03_Control_flow/control_flow.md) Control Flow
+[Next](../04_Control_flow/control_flow.md) Control Flow
 
 * [Operators in C](./operators.md)
 	* Arithmetic Operators
@@ -14,4 +14,4 @@
 #
 [Previous](../02_Variables/variables.md) Variables
 
-[Next](../03_Control_flow/control_flow.md) Control Flow
+[Next](../04_Control_flow/control_flow.md) Control Flow

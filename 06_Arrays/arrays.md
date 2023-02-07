@@ -1,6 +1,6 @@
-[Previous](../04_Loops/loops.md) Loops
+[Previous](../05_Loops/loops.md) Loops
 
-[Next](../06_Strings/strings.md) Strings
+[Next](../07_Strings/strings.md) Strings
 #
   * [Arrays](./arrays.md#arrays)
 	* [Declaration of an array](./arrays.md#declaration)
@@ -386,8 +386,8 @@ Element at x[1][2][1] = 11
 In similar ways, we can create arrays with any number of dimensions. However, the complexity also increases as the number of dimensions increases. The most used multidimensional array is the Two-Dimensional Array. 
 
 #
-[Previous](../04_Loops/loops.md) Loops
+[Previous](../05_Loops/loops.md) Loops
 
-[Next](../06_Strings/strings.md) Strings
+[Next](../07_Strings/strings.md) Strings
 
 

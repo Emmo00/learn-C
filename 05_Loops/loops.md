@@ -1,6 +1,6 @@
-[Previous](../03_Control_flow/control_flow.md) Control Flow
+[Previous](../04_Control_flow/control_flow.md) Control Flow
 
-[Next](../05_Arrays/arrays.md) Arrays
+[Next](../06_Arrays/arrays.md) Arrays
 
 * [Loops](./loops.md#loops)
 	* [for](./loops.md#for-loop)
@@ -223,6 +223,6 @@ Output
 ```
 As we can see, it prints out numbers from 0 to 9 apart from 5.
 
-[Previous](../03_Control_flow/control_flow.md) Control Flow
+[Previous](../04_Control_flow/control_flow.md) Control Flow
 
-[Next](../05_Arrays/arrays.md) Arrays
+[Next](../06_Arrays/arrays.md) Arrays
