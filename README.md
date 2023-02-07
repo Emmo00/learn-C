@@ -44,13 +44,13 @@ Learn C with examples, For Beginners
 	* [Printing Value of Variables](./02_Variables/variables.md#printing-values-of-variables)
 		* [Format Specifier](./02_Variables/variables.md#format-specifiers)
 	* [constants](./02_Variables/variables.md#constants)
-* [Operators in C](./02_Variables/operators.md)
-	* Arithmetic Operators
-	* Assignment Operators
-	* Comparism Operators
-	* Logical Operators
-	* others
-		* sizeof
+* [Operators in C](./02_Operators/operators.md)
+	* [Arithmetic Operators](./02_Operators/operators.md#arithmetic-operators)
+	* [Assignment Operators](./02_Operators/operators.md#assignment-operators)
+	* [Comparision Operators](./02_Operators/operators.md#comparision-operators)
+	* [Logical Operators](./02_Operators/operators.md#logical-operators)
+	* [Others](./02_Operators/operators.md#others)
+	* [sizeof](./02_Operators/operators.md#sizeof)
 * [Control Flow](./04_Control_flow/control_flow.md)
 	* [if](./04_Control_flow/control_flow.md#if-statement)
 	* [if else](./04_Control_flow/control_flow.md#else-statement)
