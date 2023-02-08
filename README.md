@@ -11,7 +11,7 @@ Learn C with examples, For Beginners
 | 5 | [Loops](./05_Loops/loops.md) |
 | 6 | [Arrays](./06_Arrays/arrays.md) |
 | 7 | [Strings](./04_Strings/strings.md)
-| 8 | [Functions]() |
+| 8 | [Functions](./08_Functions/functions.md) |
 | 9 | [Pointers]() |
 | 10 | [Command Line Argunents]() |
 | 11 | [Preprocessor]()|
