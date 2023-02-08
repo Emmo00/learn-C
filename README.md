@@ -12,7 +12,7 @@ Learn C with examples, For Beginners
 | 6 | [Arrays](./06_Arrays/arrays.md) |
 | 7 | [Strings](./04_Strings/strings.md)
 | 8 | [Functions](./08_Functions/functions.md) |
-| 9 | [Pointers]() |
+| 9 | [Pointers](./09_Pointers/pointers.md) |
 | 10 | [Command Line Argunents]() |
 | 11 | [Preprocessor]()|
 | 12 | [Pointers To Functions]() |
@@ -90,7 +90,8 @@ Learn C with examples, For Beginners
 	* Scope
 	* Intro to Recursion
 * Struct and Typedef 
-* Pointers 
+* [Pointers](./09_Pointers/pointers.md)
+ * [Pointers](./09_Pointers/pointers.md#poniters)
 * Command Line Argunents
 * Preprocessor
 * Pointers To Functions 
