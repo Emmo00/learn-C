@@ -6,7 +6,7 @@
 	* [Arithmetic Operators](./operators.md#arithmetic-operators)
 	* [C Increment and Decrement Operators](./operators.md#c-increment-and-decrement-operators)
 	* [Assignment Operators](./operators.md#assignment-operators)
-	* [Comparision Operators](./operators.md#comparision-operators)
+	* [Comparison Operators](./operators.md#comparision-operators)
 	* [Logical Operators](./operators.md#logical-operators)
 	* [Others](./operators.md#others)
 	* [Sizeof](./operators.md#sizeof)

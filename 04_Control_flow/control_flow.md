@@ -1,4 +1,4 @@
-[Previous](../02_Variables/operators.md) Operators
+[Previous](../03_Operators/operators.md) Operators
 
 [Next](../05_Loops/loops.md) Loops
 #
@@ -266,6 +266,6 @@ x is not 4
 ```
 if the value of x was 4 then this program would have jumped to the return line, without printing anything.
 #
-[Previous](../02_Variables/operators.md) Operators
+[Previous](../03_Operators/operators.md) Operators
 
 [Next](../05_Loops/loops.md) Loops

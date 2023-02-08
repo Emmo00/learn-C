@@ -1,6 +1,6 @@
 [Previous](../01_Hello_world/hello_world.md) Hello World
 
-[Next](../02_Variables/operators.md) Operators
+[Next](../03_Operators/operators.md) Operators
 # 
 * [Variables](./variables.md#variables)
 	* [Identifiers](./variables.md#identifiers)
@@ -224,4 +224,4 @@ const float PI = 3.14;
 # Operators
 [Previous](../01_Hello_world/hello_world.md) Hello World
 
-[Next](../02_Variables/operators.md) Operators
+[Next](../03_Operators/operators.md) Operators

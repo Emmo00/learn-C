@@ -6,7 +6,7 @@ Learn C with examples, For Beginners
 | 0 | [Introduction](./00_Introduction/introduction.md) |
 | 1 | [Hello World](./01_Hello_world/hello_world.md) |
 | 2 | [Variables](./02_Variables/variables.md) |
-| 3 | [Operators in C](./02_Variables/operators.md#operators) |
+| 3 | [Operators in C](./03_Operators/operators.md) |
 | 4 | [Control Flow](./04_Control_flow/control_flow.md) |
 | 5 | [Loops](./05_Loops/loops.md) |
 | 6 | [Arrays](./06_Arrays/arrays.md) |
@@ -46,8 +46,9 @@ Learn C with examples, For Beginners
 	* [constants](./02_Variables/variables.md#constants)
 * [Operators in C](./03_Operators/operators.md)
 	* [Arithmetic Operators](./03_Operators/operators.md#arithmetic-operators)
+	* [C Increment and Decrement Operators](./03_Operators/operators.md#c-increment-and-decrement-operators)
 	* [Assignment Operators](./03_Operators/operators.md#assignment-operators)
-	* [Comparision Operators](./03_Operators/operators.md#comparision-operators)
+	* [Comparison Operators](./03_Operators/operators.md#comparision-operators)
 	* [Logical Operators](./03_Operators/operators.md#logical-operators)
 	* [Others](./03_Operators/operators.md#others)
 	* [sizeof](./03_Operators/operators.md#sizeof)
