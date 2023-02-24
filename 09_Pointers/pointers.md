@@ -4,8 +4,8 @@
 
 
 #
-* [Pointers](./pointer.md#pointers)
-* [Reading complex pointers](./pointer.md#reading-complex-pointers)
+* [Pointers](./pointers.md#pointers)
+* [Reading complex pointers](./pointers.md#reading-complex-pointers)
 
 # Pointers
 
