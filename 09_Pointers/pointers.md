@@ -203,8 +203,11 @@ Inside the bracket (), pointer operator * and pointer name (identifier) p have t
 Assign the 3rd priority to [] since the data type has the last precedence. Therefore the pointer will look like following.
 
 char -> 4
+
 * -> 2
+
 p -> 1
+
 [10] -> 3
 
 The pointer will be read as p is a pointer to an array of integers of size 10.
