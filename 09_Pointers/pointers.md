@@ -5,7 +5,7 @@
 
 #
 * [Pointers](./pointer.md#pointers)
-* [Reading complex pointers](./reading_complex_pointers.md#reading_complex_pointers)
+* [Reading complex pointers](./pointer.md#reading-complex-pointers)
 
 # Pointers
 
