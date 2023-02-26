@@ -78,7 +78,6 @@ Learn C with examples, For Beginners
 		* [Accessing Characters in a string](./07_Strings/strings.md#accessing-string-characters)
 		* [Modifying String Characters](./07_Strings/strings.md#modifying-string-characters)
 	* [String Functions](./07_Strings/strings.md#common-string-functions-in-c)
-
 * [More Strings](./07_1_More_Strings/more_strings.md)
     * [Append a character to a String in c](./07_1_More_Strings/more_strings.md#appendment)
     * [strncat() function in C](./07_1_More_Strings/more_strings.md#strncat())
@@ -91,7 +90,10 @@ Learn C with examples, For Beginners
 	* Intro to Recursion
 * Struct and Typedef 
 * [Pointers](./09_Pointers/pointers.md)
- * [Pointers](./09_Pointers/pointers.md#poniters)
+	* [Pointers](./09_Pointers/pointers.md#poniters)
+	* [How to use Pointers](./09_Pointers/pointers.md#how-to-use-pointers
+	)
+	* [Null Pointers](./09_Pointers/pointers.md#null-pointers)
 * Command Line Argunents
 * Preprocessor
 * Pointers To Functions 

@@ -5,6 +5,9 @@
 
 #
 * [Pointers](./pointers.md#pointers)
+* [How to use Pointers](./pointers.md#how-to-use-pointers
+	)
+* [Null Pointers](./pointers.md#null-pointers)
 * [Reading complex pointers](./pointers.md#reading-complex-pointers)
 
 # Pointers
