@@ -84,11 +84,13 @@ Learn C with examples, For Beginners
     * [strpbrk() in C](./07_1_More_Strings/more_strings.md#strpbrk())
     * [strcoll() in C](./07_1_More_Strings/more_strings.md#strcoll())
     * [Finding the Length of String](./07_1_More_Strings/more_strings.md#length)
-* Functions 
-	* Parameters and Return Values
-	* Scope
-	* Intro to Recursion
-* Struct and Typedef 
+* [Functions](./08_Functions/functions.md#functions) 
+	* [Parameters and Return Values](./08_Functions/functions.md#parameters-and-return-values)
+		* [Declaring a function](./08_Functions/functions.md#declaring-a-function)
+		* [Calling a function](./08_Functions/functions.md#calling-a-function)
+	* [Scope](./08_Functions/functions.md#scope)
+	* [Intro to Recursion](./08_Functions/functions.md#recursion)
+* [Struct and Typedef]()
 * [Pointers](./09_Pointers/pointers.md)
 	* [Pointers](./09_Pointers/pointers.md#poniters)
 	* [How to use Pointers](./09_Pointers/pointers.md#how-to-use-pointers
