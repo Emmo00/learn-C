@@ -18,7 +18,7 @@ Learn C with examples, For Beginners
 | 12 | [Pointers To Functions]() |
 | 13 | [Struct and Typedef]() |
 | 14 | [Variadic Function]() |
-| 15 | [File IO](./15_File_oi/file_oi.md) |
+| 15 | [File IO](./15_File_io/file_io.md) |
 | 16 | [First Contributions]() |
 
 * Learn C
@@ -97,14 +97,14 @@ Learn C with examples, For Beginners
 	)
 	* [Null Pointers](./09_Pointers/pointers.md#null-pointers)
 * [More Pointers]()
-* [File_oi](./15_file_oi/file_oi.md)
-	* [File_oi](./15_file_oi/file_oi.md#file_oi)
-	* [Types of Files](./15_file_oi/file_oi.md#types-of-files)
-	* [Opening or Creating file in C](./15_file_oi/file_oi.md#opening-or-creating-file-in-C)
-	* [Reading from a file](./15_file_oi/file_oi.md#reading-from-a-file)
-	* [Writing to a File](./15_file_oi/file_oi.md#writing-to-a-file)
-	* [Closing a File](./15_file_oi/file_oi.md#closing-a-file)
-	* [Moving File Pointers to Specific Positions](./15_file_oi/file_oi.md#moving-file-pointers-to-specific-positions)
+* [File IO](./15_File_io/file_io.md)
+	* [File IO](./15_File_io/file_io.md#file_io)
+	* [Types of Files](./15_File_io/file_io.md#types-of-files)
+	* [Opening or Creating file in C](./15_File_io/file_io.md)#opening-or-creating-file-in-C)
+	* [Reading from a file](./15_File_io/file_io.md#reading-from-a-file)
+	* [Writing to a File](./15_File_io/file_io.md#writing-to-a-file)
+	* [Closing a File](./15_File_io/file_io.md#closing-a-file)
+	* [Moving File Pointers to Specific Positions](./15_File_io/file_io.md#moving-file-pointers-to-specific-positions)
 
 * Command Line Argunents
 * Preprocessor
