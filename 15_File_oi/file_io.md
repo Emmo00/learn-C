@@ -4,16 +4,17 @@
 
 #
 
-* [File_oi](./file_oi.md#file_oi)
-* [Types of Files](./file_oi.md#types-of-files)
-* [Opening or Creating file in C](./file_oi.md#opening-or-creating-file-in-C)
-* [Reading from a file](./file_oi.md#reading-from-a-file)
-* [Writing to a File](./file_oi.md#writing-to-a-file)
-* [Closing a File](./file_oi.md#closing-a-file)
-* [Moving File Pointers to Specific Positions](./file_oi.md#moving-file-pointers-to-specific-positions)
+* [File IO](./file_io.md#file_oi)
+* [Types of Files](./file_io.md#types-of-files)
+* [Opening or Creating file in C](./file_io.md#opening-or-creating-file-in-C)
+* [Reading from a file](./file_io.md#reading-from-a-file)
+* [Writing to a File](./file_io.md#writing-to-a-file)
+* [Closing a File](./file_io.md#closing-a-file)
+* [Write to a Binary File](./file_io.md#write-to-a-binary-file)
+* [Reading from Binary File](./file_io.md#reading-from-binary-file)
 
 
-# File I/O
+# File IO
 
 In this article you will learn what are files in C, why they are needed, and how to handle standard I/O in C with the help of different C functions like fopen(), fclose(), fprintf(), fscanf(), getc(), putc(), getw(), fseek(), etc. A file represents a sequence of bytes regardless of being a text file or a binary file.
 
