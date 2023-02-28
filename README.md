@@ -97,14 +97,15 @@ Learn C with examples, For Beginners
 	)
 	* [Null Pointers](./09_Pointers/pointers.md#null-pointers)
 * [More Pointers]()
-* [File IO](./15_File_io/file_io.md)
-	* [File IO](./15_File_io/file_io.md#file_io)
-	* [Types of Files](./15_File_io/file_io.md#types-of-files)
-	* [Opening or Creating file in C](./15_File_io/file_io.md)#opening-or-creating-file-in-C)
-	* [Reading from a file](./15_File_io/file_io.md#reading-from-a-file)
-	* [Writing to a File](./15_File_io/file_io.md#writing-to-a-file)
-	* [Closing a File](./15_File_io/file_io.md#closing-a-file)
-	* [Moving File Pointers to Specific Positions](./15_File_io/file_io.md#moving-file-pointers-to-specific-positions)
+* [File IO](./15_file_io/file_io.md)
+	* [File IO](./15_file_io/file_io.md#file_io)
+	* [Types of Files](./15_file_io/file_io.md#types-of-files)
+	* [Opening or Creating file in C](./15_file_io/file_io.md#opening-or-creating-file-in-C)
+	* [Reading from a file](./15_file_io/file_io.md#reading-from-a-file)
+	* [Writing to a File](./15_file_io/file_io.md#writing-to-a-file)
+	* [Closing a File](./15_file_io/file_io.md#closing-a-file)
+	* [Write to a Binary File](./15_file_io.md#write-to-a-binary-file)
+	* [Reading from Binary File](./15_file_io.md#reading-from-binary-file)
 
 * Command Line Argunents
 * Preprocessor
