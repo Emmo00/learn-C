@@ -10,7 +10,7 @@ Learn C with examples, For Beginners
 | 4 | [Control Flow](./04_Control_flow/control_flow.md) |
 | 5 | [Loops](./05_Loops/loops.md) |
 | 6 | [Arrays](./06_Arrays/arrays.md) |
-| 7 | [Strings](./04_Strings/strings.md)
+| 7 | [Strings](./07_Strings/strings.md)
 | 8 | [Functions](./08_Functions/functions.md) |
 | 9 | [Pointers](./09_Pointers/pointers.md) |
 | 10 | [Command Line Argunents]() |
