@@ -72,7 +72,7 @@ Learn C with examples, For Beginners
     * [Multidimensional Arrays in C](./06_Arrays/arrays.md#multidimensional_array)
 * [Strings](./07_Strings/strings.md)
     * [Strings](./07_Strings/strings.md#strings)
-    * [Declaration of Strings](./07_Strings/strings.md$declaration)
+    * [Declaration of Strings](./07_Strings/strings.md#declaration)
     * [Initializing a String](./07_Strings/strings.md#initializing)
 	* [Strings as Arrays](./07_Strings/strings.md#strings-as-arrays)
 		* [Accessing Characters in a string](./07_Strings/strings.md#accessing-string-characters)
