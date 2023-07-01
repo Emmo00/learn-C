@@ -118,7 +118,9 @@ Learn C with examples, For Beginners
 
 ## Contributors
 <a href="https://github.com/emmo00/learn-c/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=emmo00/learn-c" />
+	<p align="center">
+  		<img src="https://contrib.rocks/image?repo=emmo00/learn-c" />
+	</p>
 </a>
 
 Leave a ⭐ if you like this repo and kindly follow for more!
