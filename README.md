@@ -115,3 +115,5 @@ Learn C with examples, For Beginners
 * First Contributions
 
 ## HAPPY LEARNING : )
+
+Leave a ⭐ if you like this repo and kindly follow for more!
