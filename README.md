@@ -123,7 +123,7 @@ Learn C with examples, For Beginners
 	</p>
 </a>
 
-You are welcome to contribute to this project, checkout our (Contributing Guide)[https://github.com/Emmo00/learn-C/blob/main/CONTRIBUTING.md]
+You are welcome to contribute to this project, checkout our [Contributing Guide](https://github.com/Emmo00/learn-C/blob/main/CONTRIBUTING.md)
 
 ##
 
