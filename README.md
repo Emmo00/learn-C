@@ -18,7 +18,7 @@ Learn C with examples, For Beginners
 | 12 | [Pointers To Functions]() |
 | 13 | [Struct and Typedef]() |
 | 14 | [Variadic Function]() |
-| 15 | [File IO](./15_File_io/file_io.md) |
+| 15 | [File IO](./15_File_oi/file_io.md) |
 | 16 | [First Contributions]() |
 
 * Learn C
