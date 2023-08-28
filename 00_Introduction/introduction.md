@@ -1,17 +1,19 @@
-[Previous](../README.md) Learn-C
+[Next ⏩](../01_Hello_world/hello_world.md) Hello-World 
 
-[Next](../01_Hello_world/hello_world.md) Hello-World \
-\
-\
-* [Introduction](./introduction.md#introduction)
-	* [Requirements](./introduction.md#requirement)
-	* [Setup](./introduction.md#setup)
-		* Compiler
-		* Test Editor
-	* [Coding Style (Betty)](./introduction.md#coding-style-betty)
-	* [Keywords](./introduction.md#keywords) 
+[Previous: ⏪](../README.md) Learn-C
 
-\
+Now ▼
+
+
+[Introduction](./introduction.md#introduction)  
+[Requirements](./introduction.md#requirement)  
+[Setup](./introduction.md#setup)  
+* Compiler
+* Text Editor
+
+[Coding Style (Betty)](./introduction.md#coding-style-betty)  
+[Keywords](./introduction.md#keywords) 
+
 
 # Introduction
 
@@ -19,12 +21,13 @@ C programming language is a procedural and general-purpose programming language 
 
 The C programming language offers various features and functionalities to the programmers. It includes low-level memory access, simple syntax, and a clean style. It makes the C programming language suitable for system programming like compiler development and operating system development.
 
-C files have the file extension .c\
-There are other file extensions in C like the header files, but we would talk about them later.
+C files ends with a .c file extension
+
+However, there are other file extensions in C like the header files(.h), but we would talk about them later.
 
 ## Requirement
 
-There are two(2) basic requirements to for coding in C:
+There are two(2) basic requirements in order to run a C program:
 
 * A text editor to write C code. Examples
 	* Vim
@@ -54,7 +57,7 @@ There are 32 keywords in the C programming language.
 
 Keywords are reserved words in the language which has its own meaning to the compiler and cannot be used as a user-defined [identifier](../02_Variables/variables.md#identifiers)
 
-Keywords in C are as follows
+The Keywords in C are as follows
 
 |KeyWords |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |
 |:-------:|:-------:|:-------:|:-------:|
@@ -69,11 +72,11 @@ Keywords in C are as follows
 
 You can also checkout my repo showing examples for each keyword [here](TODO:KEYWORD_REPO)
 
-Enough of the talk. In the Next Section, we are going to write some code.
+In the Next Section, we are going to write some code.
 \
 \
 \
 \
-[Previous](../README.md) Learn-C
+[Previous ⏪](../README.md) Learn-C
 
-[Next](../01_Hello_world/hello_world.md) Hello-World
+[Next ⏩](../01_Hello_world/hello_world.md) Hello-World
